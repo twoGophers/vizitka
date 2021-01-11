@@ -1,0 +1,415 @@
+
+$bord : 1px solid rgb(182, 180, 180);
+
+//Скрытие блока
+.displayBlock {
+display: none;
+}
+.displayShow {
+    display: flex;
+}
+
+
+.body11 {
+    opacity: 0.9;
+    transition: all 2s;
+    animation: blockPages1 1.8s ;
+}
+
+.men__body1, .men__body2, .men__body3{
+    width: 64%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .men__minBody1, .men__body1 {
+        background-color: rgb(224, 224, 224);
+    }
+    .men__minBody1, .men__minBody2, .men__minBody3 {
+        background-color: rgb(224, 224, 224);
+        height: 400px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .information {
+            width: 70%;
+            padding: 4%;
+            border-radius: 5px;
+            margin-left: 0px;
+            background-color: rgb(212, 248, 224);
+        }
+        .forma {
+            background-color: rgb(212, 248, 224);
+            height: auto;
+            width: 60%;
+            border-radius: 5px;
+            padding: 2%;
+            display: flex;
+            .form {
+                width: 100%;
+                .formInput{
+                    margin-top: 5%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .contactButton {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    button {
+                        margin-left: 4%;
+                        margin-right: 4%;
+                    }
+                }
+                textarea {
+                    width: 100%;
+                    font-size: 0.8em;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            
+        }
+    }
+}
+
+//Блок About
+.men__body2 {
+
+    .men__minBody2 {
+        background-color: rgb(167, 203, 250);
+        width: 100%;
+        
+        .men__block2 {
+                position: relative;
+                width: 50%;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                border: 1px solid rgb(100, 100, 100);
+                padding: 2%;
+                color: rgb(17, 17, 17);
+                box-shadow: 0 0 7em 4em white inset;
+                opacity: 0.9;
+                transition: all 2s;
+                animation: blockProf 1.8s ;
+        }
+    }
+}
+
+//Блок Forum
+.men__body3 {
+
+    .men__minBody3 {
+        background-color: rgb(216, 245, 196);
+        width: 100%;
+      
+        .men__block3 {
+                position: relative;
+                width: 50%;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                border: 1px solid rgb(100, 100, 100);
+                padding: 2%;
+                color: rgb(17, 17, 17);
+                box-shadow: 0 0 7em 4em white inset;
+                opacity: 0.9;
+                transition: all 2s;
+                animation: blockProf 1.8s ;
+                .portfolioWeb {
+                    display: flex;
+                    flex-direction: column;
+                }
+        }
+        .block3 {
+        width: 20%;
+        background: rgb(85, 83, 83);
+        opacity: 0.9;
+        transition: all 2s;
+        animation: blockPages1 1.8s ;
+    } 
+    }
+}
+
+
+
+
+
+//Блок с текстом About
+.saitBarAbout {
+    background-color: rgb(200, 229, 248);
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(190, 190, 190);
+    .saitBarAbotContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        //Title
+        .saitBarAboutTitle {
+            margin: 3%;
+            transform: translate(0px, 120%);
+            opacity: 0;
+            transition: all 0.8s ease 0s;
+            
+        }
+        ._activeTitle {
+            transform: translate(0px, 0px);
+            opacity: 1;}
+
+            //Анимация те
+        
+        .menContentAbout {
+            padding: 2%;
+            .list__items {
+                .list__item {
+                    font-size: 1em;
+                    li {
+                        list-style: none;
+                        position: relative;
+                        padding: 0px 0px 0px 40px;
+                        margin: 0px 0px 20px 0px;
+                        transform: translate(-150%,0px);
+                        transition: all 0.3s ease 0s;
+                        
+                    }
+                
+                }
+                ._activeTitle li{
+                    transform: translate(0px, 0px);
+                }
+                ._activeTitle li:nth-child(1) {
+                    transition: all 0.8s ease 0s;
+                }
+                ._activeTitle li:nth-child(2) {
+                    transition: all 0.8s ease 0.2s;
+                }
+                ._activeTitle li:nth-child(3) {
+                    transition: all 0.8s ease 0.4s;
+                }
+                ._activeTitle li:nth-child(4) {
+                    transition: all 0.8s ease 0.6s;
+                }
+                ._activeTitle li:nth-child(5) {
+                    transition: all 0.8s ease 0.8s;
+                }
+                ._activeTitle li:nth-child(6) {
+                    transition: all 0.8s ease 1s;
+                }
+                ._activeTitle li:nth-child(7) {
+                    transition: all 0.8s ease 1.2s;
+                }
+                ._activeTitle li:nth-child(8) {
+                    transition: all 0.8s ease 1.4s;
+                }
+                ._activeTitle li:nth-child(9) {
+                    transition: all 0.8s ease 1.6s;
+                }
+                ._activeTitle li:nth-child(10) {
+                    transition: all 0.8s ease 1.8s;
+                }
+            }
+        }
+        .text__item {
+            overflow: hidden;
+            margin: 0px 0px 25px 0px;
+        }
+    }
+}
+
+//Блок после Blog
+.Blog1{
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    .Blog{
+        .Blog__men{
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            padding: 3%;
+            .Blog__LIST {
+                margin-top: 2%;
+                margin-left: 5%;
+                li {
+                    list-style-type: disc;
+                }
+            }
+            
+            .Blog__img{
+                width: 50%;
+                border: 1px solid rgb(138, 136, 136);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+
+                img {
+                    width: 60%;
+                    margin: 5%;
+                    transition: 1s;
+                }
+                img:hover {
+                    transform: scale(1.2);
+                }
+            }
+            .Blog__context {
+                width: 50%;
+                margin-left: 7%;
+                display: flex;
+                flex-direction: column;
+                .Blog__price {
+                    display: flex;
+                    flex-direction: row;
+                    .price {
+                        margin-left: 50%;
+                        
+                    }
+                }
+                .Blog__context__Color, .Blog__context__bth {
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    align-items: center;
+                    
+                    justify-content: space-between;
+                    ul {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        li {
+                            padding: 1%;
+                            width: 30%;
+                            margin: 1%;
+                            
+                        }
+                    }
+                    
+                }
+            }
+            .Blog__mick {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                width: 100%;
+                
+                .Blog__muse {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    border: 1px solid rgb(148, 147, 147);
+                    position: relative;
+                    align-items: center;
+                    cursor: pointer;
+                    img {
+                        width: 90%;
+                        margin: 2%;
+                    }
+                }
+            }
+        
+        }
+        .showList {
+            background-color:white;
+            display: flex;
+            flex-direction: row;
+            .showList__cart {
+                border: 1px solid rgb(148, 147, 147);
+                width: 100%;
+                padding-left: 5%;
+                padding-top: 2%;
+            }
+        }
+        .summa__total {
+            padding: 5%;
+            width: 100%;
+            border: 1px solid rgb(182, 180, 180);
+            margin-bottom: 100px;
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            button {
+                margin-top: 2%;
+                width: 20%;
+            }
+        }
+    }
+}
+
+
+
+//Блок после формы. Мышки
+ .contactBlockMen {
+    
+    width: 64%;
+    background-color: white;
+    flex-direction: column;
+    .contactBlock {
+        width: 100%;
+    
+    .contactBl {
+        display: flex;
+        
+        flex-direction: row;
+        
+        .contactBlockImage {
+            width: 50%;
+            padding: 3%;
+            border: $bord;
+            img {
+                width: 100%;
+            }
+        }
+        .contactBlockContent {
+            width: 50%;
+            padding: 3%;
+            .contactBlockContent1 {
+                margin-top: 3%;
+                margin-bottom: 5%;
+                padding-bottom: 4%;
+                li {
+                    padding-top: 3%;
+                }
+            }
+            .contactBlockColor, .contactBlockButt {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+                p {
+                    text-align: center;
+                    justify-content: center;
+                    border-radius: 5px;
+                    color: white;
+                    margin: 2%;
+                    padding: 2%;
+                    cursor: pointer;
+                    }
+                }
+            
+            }
+        }
+    }
+}

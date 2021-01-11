@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/dist/bigStyle.css">
+    <link rel="icon" href="images/3600967.svg" type="">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="start app2">
+
+        <div class="start__click">
+            <h4 class="youName">Hello {{name}}</h4>
+            <input :class="className" v-bind:style="status " v-model="name" type="text" placeholder="You Name">
+            <a class="btn" @click="skip" href="page/prof.html">START</a>
+        </div>
+    </div>
+
+    <script src="js/vueIner.js"></script>
+</body>
+
+</html>

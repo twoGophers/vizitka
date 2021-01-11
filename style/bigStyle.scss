@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(172, 175, 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../../images/bg.jpg');
+    display: flex;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.start {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .start__click {
+        background-color: dimgrey;
+        display: flex;
+        flex: auto;
+        max-width: 20%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10%;
+        border: 1px solid rgb(122, 171, 226);
+        border-radius: 15px;
+        padding: 5%;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        height: 120px;
+        opacity: 0.8;
+        transition: all 2s;
+        animation: onePage 0.8s cubic-bezier(.19, 1.93, 1, -0.88) infinite;
+
+        @keyframes onePage {
+            0% {
+                height: 121px;
+                background-color: rgb(4, 255, 100);
+            }
+
+            10% {
+                border: 1px solid rgb(122, 155, 226);
+                background-color: rgb(4, 255, 120);
+            }
+
+            20% {
+                height: 121px;
+                background-color: rgb(4, 255, 140);
+            }
+
+            30% {
+                border: 1px solid rgb(122, 185, 226);
+                background-color: rgb(4, 255, 160);
+            }
+
+            40% {
+                height: 121px;
+                background-color: rgb(4, 255, 180);
+            }
+
+            50% {
+                border: 1px solid rgb(122, 195, 226);
+                background-color: rgb(4, 255, 200);
+            }
+
+            60% {
+                height: 121px;
+                background-color: rgb(4, 255, 180);
+            }
+
+            70% {
+                border: 1px solid rgb(122, 185, 226);
+                background-color: rgb(4, 255, 160);
+            }
+
+            80% {
+                height: 121px;
+                background-color: rgb(4, 255, 140);
+            }
+
+            90% {
+                border: 1px solid rgb(122, 155, 226);
+                background-color: rgb(4, 255, 120);
+            }
+
+            100% {
+                height: 121px;
+                background-color: rgb(4, 255, 100);
+            }
+        }
+
+        //Инпут                        
+        .startInput1,
+        .startInput {
+            width: 80%;
+            margin: 2%;
+            outline: none;
+            padding: 2%;
+
+        }
+
+        .startInput1 {
+            background-color: rgb(102, 226, 199);
+        }
+
+        .startInput {
+            background-color: #E266B7;
+        }
+
+        .youName {
+            margin-bottom: 10%;
+            color: rgb(82, 80, 80);
+        }
+
+        //Кнопка        
+        a {
+            margin-top: 20px;
+            border: 5px solid rgb(4, 247, 85);
+            background-color: rgb(3, 250, 77);
+            box-shadow: 0 0 10px 5px #8dfa9b;
+            border-radius: 5px;
+            padding: 2% 5%;
+            transition: initial 1s;
+
+            &:hover {
+                box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+                background-color: rgb(0, 247, 255);
+                border: 5px solid rgb(7, 247, 235);
+            }
+
+            &:active {
+                border: 4px solid rgb(74, 232, 253);
+                color: rgb(82, 82, 82);
+            }
+        }
+
+    }
+}
