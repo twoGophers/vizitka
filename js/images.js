@@ -2,47 +2,47 @@ window.onload = function () {
     let images = {
         "1": {
             "name": "Nature1",
-            "adressImages": "/../images/images1.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnatworld.info%2Fo-prirode-dlja-shkoly%2Fsochinenija-o-prirode%2Fsochinenie-na-temu-priroda&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABAO",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "2": {
             "name": "Nature2",
-            "adressImages": "../images/images2.jpg",
+            "adressImages": "https://sites.google.com/site/prirodanasevseegooglgfgf",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "3": {
             "name": "Nature3",
-            "adressImages": "/images/images3.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fklike.net%2F1191-priroda-krasivye-kartinki-40-foto.html&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABAf",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "4": {
             "name": "Nature4",
-            "adressImages": "images/images4.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficocnews.ru%2Fizuchenie-biblii%2Fvoprosy-i-otvety%2Fpriroda-sozdana-bogom-i-svidetelstvuet-o-boge.html&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABAl",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "5": {
             "name": "Nature5",
-            "adressImages": "../../images/images5.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fsevernykavkaz.ru%2Fpriroda-ingushetii%2F&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABAr",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "6": {
             "name": "Nature6",
-            "adressImages": "../../images/images6.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yaklass.ru%2Fp%2Fokruzhayushchij-mir%2F3-klass%2Fpriroda-vokrug-nas-324086%2Fchto-sostavliaet-zhivuiu-prirodu-324130%2Fre-8ac91192-2665-4fcd-9494-edac2ad38f7d&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABAx",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "7": {
             "name": "Nature7",
-            "adressImages": "../../images/images7.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnatworld.info%2Fo-prirode-dlja-shkoly%2Fsochinenija-o-prirode%2Fsochinenie-na-temu-krasota-prirody&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABA4",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "8": {
             "name": "Nature8",
-            "adressImages": "../../images/images8.jpg",
+            "adressImages": "https://sites.google.com/site/prirodamoazizn",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "9": {
             "name": "Nature9",
-            "adressImages": "../../images/images9.jpg",
+            "adressImages": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fphotos%2Fnature&psig=AOvVaw1mgn7AG11Njlk1QJdbYJqn&ust=1610476815687000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj81-fDlO4CFQAAAAAdAAAAABBE",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
 
         }
