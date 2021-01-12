@@ -7,27 +7,27 @@ window.onload = function () {
         },
         "2": {
             "name": "Nature2",
-            "adressImages": "../../images/images2.jpg",
+            "adressImages": "/images/images2.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "3": {
             "name": "Nature3",
-            "adressImages": "../../images/images3.jpg",
+            "adressImages": "./images/images3.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "4": {
             "name": "Nature4",
-            "adressImages": "../../images/images4.jpg",
+            "adressImages": "../images/images4.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "5": {
             "name": "Nature5",
-            "adressImages": "../../images/images5.jpg",
+            "adressImages": "/../images/images5.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "6": {
             "name": "Nature6",
-            "adressImages": "../../images/images6.jpg",
+            "adressImages": "./../images/images6.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "7": {
@@ -53,6 +53,8 @@ window.onload = function () {
         for (let key in images) {
 
             out += '<img src = "' + images[key].adressImages + '">';
+            console.log('<img src = "' + images[key].adressImages + '">');
+
             out += '<h6>' + images[key].name + '</h6>';
             out += images[key].message + '<br>';
 
