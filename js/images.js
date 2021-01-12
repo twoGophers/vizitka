@@ -2,7 +2,7 @@ window.onload = function () {
     let images = {
         "1": {
             "name": "Nature1",
-            "adressImages": "../../images/images1.jpg",
+            "adressImages": "images/images1.jpg",
             "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis vitae consequatur possimus, voluptates tempora deleniti aliquam deserunt itaque, autem excepturi sit minus obcaecati aliquid?"
         },
         "2": {
