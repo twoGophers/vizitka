@@ -1,317 +1,332 @@
-
-
 .displayBlock {
   display: none;
 }
 
 .displayShow {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .body11 {
   opacity: 0.9;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
   transition: all 2s;
-  -webkit-animation: blockPages1 1.8s;
-          animation: blockPages1 1.8s;
+  animation: blockPages1 1.8s;
 }
 
-.men__body1, .men__body2, .men__body3 {
+.men__body1,
+.men__body2,
+.men__body3 {
   width: 64%;
   height: 400px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.men__body1 .men__minBody1, .men__body1 .men__body1, .men__body2 .men__minBody1, .men__body2 .men__body1, .men__body3 .men__minBody1, .men__body3 .men__body1 {
+
+.men__body1 .men__minBody1,
+.men__body1 .men__body1,
+.men__body2 .men__minBody1,
+.men__body2 .men__body1,
+.men__body3 .men__minBody1,
+.men__body3 .men__body1 {
   background-color: #e0e0e0;
 }
-.men__body1 .men__minBody1, .men__body1 .men__minBody2, .men__body1 .men__minBody3, .men__body2 .men__minBody1, .men__body2 .men__minBody2, .men__body2 .men__minBody3, .men__body3 .men__minBody1, .men__body3 .men__minBody2, .men__body3 .men__minBody3 {
-  background-color: #e0e0e0;
+
+.men__body1 .men__minBody1,
+.men__body1 .men__minBody2,
+.men__body1 .men__minBody3,
+.men__body2 .men__minBody1,
+.men__body2 .men__minBody2,
+.men__body2 .men__minBody3,
+.men__body3 .men__minBody1,
+.men__body3 .men__minBody2,
+.men__body3 .men__minBody3 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+  background: #c5deea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #c5deea 0%, #8abbd7 31%, #066dab 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c5deea 0%, #8abbd7 31%, #066dab 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c5deea 0%, #8abbd7 31%, #066dab 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5deea", endColorstr="#066dab", GradientType=0);
+  /* IE6-9 */
   height: 400px;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.men__body1 .men__minBody1 .information, .men__body1 .men__minBody2 .information, .men__body1 .men__minBody3 .information, .men__body2 .men__minBody1 .information, .men__body2 .men__minBody2 .information, .men__body2 .men__minBody3 .information, .men__body3 .men__minBody1 .information, .men__body3 .men__minBody2 .information, .men__body3 .men__minBody3 .information {
+
+.men__body1 .men__minBody1 .information,
+.men__body1 .men__minBody2 .information,
+.men__body1 .men__minBody3 .information,
+.men__body2 .men__minBody1 .information,
+.men__body2 .men__minBody2 .information,
+.men__body2 .men__minBody3 .information,
+.men__body3 .men__minBody1 .information,
+.men__body3 .men__minBody2 .information,
+.men__body3 .men__minBody3 .information {
   width: 70%;
   padding: 4%;
   border-radius: 5px;
   margin-left: 0px;
   background-color: #d4f8e0;
 }
-.men__body1 .men__minBody1 .forma, .men__body1 .men__minBody2 .forma, .men__body1 .men__minBody3 .forma, .men__body2 .men__minBody1 .forma, .men__body2 .men__minBody2 .forma, .men__body2 .men__minBody3 .forma, .men__body3 .men__minBody1 .forma, .men__body3 .men__minBody2 .forma, .men__body3 .men__minBody3 .forma {
+
+.men__body1 .men__minBody1 .forma,
+.men__body1 .men__minBody2 .forma,
+.men__body1 .men__minBody3 .forma,
+.men__body2 .men__minBody1 .forma,
+.men__body2 .men__minBody2 .forma,
+.men__body2 .men__minBody3 .forma,
+.men__body3 .men__minBody1 .forma,
+.men__body3 .men__minBody2 .forma,
+.men__body3 .men__minBody3 .forma {
   background-color: #d4f8e0;
   height: auto;
   width: 60%;
   border-radius: 5px;
   padding: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-.men__body1 .men__minBody1 .forma .form, .men__body1 .men__minBody2 .forma .form, .men__body1 .men__minBody3 .forma .form, .men__body2 .men__minBody1 .forma .form, .men__body2 .men__minBody2 .forma .form, .men__body2 .men__minBody3 .forma .form, .men__body3 .men__minBody1 .forma .form, .men__body3 .men__minBody2 .forma .form, .men__body3 .men__minBody3 .forma .form {
+
+.men__body1 .men__minBody1 .forma .form,
+.men__body1 .men__minBody2 .forma .form,
+.men__body1 .men__minBody3 .forma .form,
+.men__body2 .men__minBody1 .forma .form,
+.men__body2 .men__minBody2 .forma .form,
+.men__body2 .men__minBody3 .forma .form,
+.men__body3 .men__minBody1 .forma .form,
+.men__body3 .men__minBody2 .forma .form,
+.men__body3 .men__minBody3 .forma .form {
   width: 100%;
 }
-.men__body1 .men__minBody1 .forma .form .formInput, .men__body1 .men__minBody2 .forma .form .formInput, .men__body1 .men__minBody3 .forma .form .formInput, .men__body2 .men__minBody1 .forma .form .formInput, .men__body2 .men__minBody2 .forma .form .formInput, .men__body2 .men__minBody3 .forma .form .formInput, .men__body3 .men__minBody1 .forma .form .formInput, .men__body3 .men__minBody2 .forma .form .formInput, .men__body3 .men__minBody3 .forma .form .formInput {
+
+.men__body1 .men__minBody1 .forma .form .formInput,
+.men__body1 .men__minBody2 .forma .form .formInput,
+.men__body1 .men__minBody3 .forma .form .formInput,
+.men__body2 .men__minBody1 .forma .form .formInput,
+.men__body2 .men__minBody2 .forma .form .formInput,
+.men__body2 .men__minBody3 .forma .form .formInput,
+.men__body3 .men__minBody1 .forma .form .formInput,
+.men__body3 .men__minBody2 .forma .form .formInput,
+.men__body3 .men__minBody3 .forma .form .formInput {
   margin-top: 5%;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.men__body1 .men__minBody1 .forma .form .contactButton, .men__body1 .men__minBody2 .forma .form .contactButton, .men__body1 .men__minBody3 .forma .form .contactButton, .men__body2 .men__minBody1 .forma .form .contactButton, .men__body2 .men__minBody2 .forma .form .contactButton, .men__body2 .men__minBody3 .forma .form .contactButton, .men__body3 .men__minBody1 .forma .form .contactButton, .men__body3 .men__minBody2 .forma .form .contactButton, .men__body3 .men__minBody3 .forma .form .contactButton {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+.men__body1 .men__minBody1 .forma .form .contactButton,
+.men__body1 .men__minBody2 .forma .form .contactButton,
+.men__body1 .men__minBody3 .forma .form .contactButton,
+.men__body2 .men__minBody1 .forma .form .contactButton,
+.men__body2 .men__minBody2 .forma .form .contactButton,
+.men__body2 .men__minBody3 .forma .form .contactButton,
+.men__body3 .men__minBody1 .forma .form .contactButton,
+.men__body3 .men__minBody2 .forma .form .contactButton,
+.men__body3 .men__minBody3 .forma .form .contactButton {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.men__body1 .men__minBody1 .forma .form .contactButton button, .men__body1 .men__minBody2 .forma .form .contactButton button, .men__body1 .men__minBody3 .forma .form .contactButton button, .men__body2 .men__minBody1 .forma .form .contactButton button, .men__body2 .men__minBody2 .forma .form .contactButton button, .men__body2 .men__minBody3 .forma .form .contactButton button, .men__body3 .men__minBody1 .forma .form .contactButton button, .men__body3 .men__minBody2 .forma .form .contactButton button, .men__body3 .men__minBody3 .forma .form .contactButton button {
+
+.men__body1 .men__minBody1 .forma .form .contactButton button,
+.men__body1 .men__minBody2 .forma .form .contactButton button,
+.men__body1 .men__minBody3 .forma .form .contactButton button,
+.men__body2 .men__minBody1 .forma .form .contactButton button,
+.men__body2 .men__minBody2 .forma .form .contactButton button,
+.men__body2 .men__minBody3 .forma .form .contactButton button,
+.men__body3 .men__minBody1 .forma .form .contactButton button,
+.men__body3 .men__minBody2 .forma .form .contactButton button,
+.men__body3 .men__minBody3 .forma .form .contactButton button {
   margin-left: 4%;
   margin-right: 4%;
 }
-.men__body1 .men__minBody1 .forma .form textarea, .men__body1 .men__minBody2 .forma .form textarea, .men__body1 .men__minBody3 .forma .form textarea, .men__body2 .men__minBody1 .forma .form textarea, .men__body2 .men__minBody2 .forma .form textarea, .men__body2 .men__minBody3 .forma .form textarea, .men__body3 .men__minBody1 .forma .form textarea, .men__body3 .men__minBody2 .forma .form textarea, .men__body3 .men__minBody3 .forma .form textarea {
+
+.men__body1 .men__minBody1 .forma .form textarea,
+.men__body1 .men__minBody2 .forma .form textarea,
+.men__body1 .men__minBody3 .forma .form textarea,
+.men__body2 .men__minBody1 .forma .form textarea,
+.men__body2 .men__minBody2 .forma .form textarea,
+.men__body2 .men__minBody3 .forma .form textarea,
+.men__body3 .men__minBody1 .forma .form textarea,
+.men__body3 .men__minBody2 .forma .form textarea,
+.men__body3 .men__minBody3 .forma .form textarea {
   width: 100%;
   font-size: 0.8em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .men__body2 .men__minBody2 {
-  background-color: #a7cbfa;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+  background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, #1e5799 19%, #1e5799 20%, #2989d8 50%, #1e5799 80%, #1e5799 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, #1e5799 19%, #1e5799 20%, #2989d8 50%, #1e5799 80%, #1e5799 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, #1e5799 19%, #1e5799 20%, #2989d8 50%, #1e5799 80%, #1e5799 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001e5799", endColorstr="#001e5799", GradientType=0);
+  /* IE6-9 */
   width: 100%;
 }
+
 .men__body2 .men__minBody2 .men__block2 {
   position: relative;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   border: 1px solid #646464;
   padding: 2%;
   color: #111111;
-  -webkit-box-shadow: 0 0 7em 4em white inset;
-          box-shadow: 0 0 7em 4em white inset;
+  box-shadow: 0 0 7em 4em white inset;
   opacity: 0.9;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
   transition: all 2s;
-  -webkit-animation: blockProf 1.8s;
-          animation: blockProf 1.8s;
+  animation: blockProf 1.8s;
 }
 
 .men__body3 .men__minBody3 {
-  background-color: #d8f5c4;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+  background: #d2ff52;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d2ff52 0%, #91e842 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d2ff52 0%, #91e842 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d2ff52 0%, #91e842 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2ff52", endColorstr="#91e842", GradientType=0);
+  /* IE6-9 */
   width: 100%;
 }
+
 .men__body3 .men__minBody3 .men__block3 {
   position: relative;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   border: 1px solid #646464;
   padding: 2%;
   color: #111111;
-  -webkit-box-shadow: 0 0 7em 4em white inset;
-          box-shadow: 0 0 7em 4em white inset;
+  box-shadow: 0 0 7em 4em white inset;
   opacity: 0.9;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
   transition: all 2s;
-  -webkit-animation: blockProf 1.8s;
-          animation: blockProf 1.8s;
+  animation: blockProf 1.8s;
 }
+
 .men__body3 .men__minBody3 .men__block3 .portfolioWeb {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .men__body3 .men__minBody3 .block3 {
   width: 20%;
   background: #555353;
   opacity: 0.9;
-  -webkit-transition: all 2s;
-  -o-transition: all 2s;
   transition: all 2s;
-  -webkit-animation: blockPages1 1.8s;
-          animation: blockPages1 1.8s;
+  animation: blockPages1 1.8s;
 }
 
 .saitBarAbout {
   background-color: #c8e5f8;
   width: 64%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border: 1px solid #bebebe;
 }
+
 .saitBarAbout .saitBarAbotContent {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 .saitBarAbout .saitBarAbotContent .saitBarAboutTitle {
   margin: 3%;
-  -webkit-transform: translate(0px, 120%);
-      -ms-transform: translate(0px, 120%);
-          transform: translate(0px, 120%);
+  transform: translate(0px, 120%);
   opacity: 0;
-  -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
+
 .saitBarAbout .saitBarAbotContent ._activeTitle {
-  -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
   opacity: 1;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout {
   padding: 2%;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items .list__item {
   font-size: 1em;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items .list__item li {
   list-style: none;
   position: relative;
   padding: 0px 0px 0px 40px;
   margin: 0px 0px 20px 0px;
-  -webkit-transform: translate(-150%, 0px);
-      -ms-transform: translate(-150%, 0px);
-          transform: translate(-150%, 0px);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
+  transform: translate(-150%, 0px);
   transition: all 0.3s ease 0s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li {
-  -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(1) {
-  -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(2) {
-  -webkit-transition: all 0.8s ease 0.2s;
-  -o-transition: all 0.8s ease 0.2s;
   transition: all 0.8s ease 0.2s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(3) {
-  -webkit-transition: all 0.8s ease 0.4s;
-  -o-transition: all 0.8s ease 0.4s;
   transition: all 0.8s ease 0.4s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(4) {
-  -webkit-transition: all 0.8s ease 0.6s;
-  -o-transition: all 0.8s ease 0.6s;
   transition: all 0.8s ease 0.6s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(5) {
-  -webkit-transition: all 0.8s ease 0.8s;
-  -o-transition: all 0.8s ease 0.8s;
   transition: all 0.8s ease 0.8s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(6) {
-  -webkit-transition: all 0.8s ease 1s;
-  -o-transition: all 0.8s ease 1s;
   transition: all 0.8s ease 1s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(7) {
-  -webkit-transition: all 0.8s ease 1.2s;
-  -o-transition: all 0.8s ease 1.2s;
   transition: all 0.8s ease 1.2s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(8) {
-  -webkit-transition: all 0.8s ease 1.4s;
-  -o-transition: all 0.8s ease 1.4s;
   transition: all 0.8s ease 1.4s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(9) {
-  -webkit-transition: all 0.8s ease 1.6s;
-  -o-transition: all 0.8s ease 1.6s;
   transition: all 0.8s ease 1.6s;
 }
+
 .saitBarAbout .saitBarAbotContent .menContentAbout .list__items ._activeTitle li:nth-child(10) {
-  -webkit-transition: all 0.8s ease 1.8s;
-  -o-transition: all 0.8s ease 1.8s;
   transition: all 0.8s ease 1.8s;
 }
+
 .saitBarAbout .saitBarAbotContent .text__item {
   overflow: hidden;
   margin: 0px 0px 25px 0px;
@@ -319,188 +334,133 @@
 
 .Blog1 {
   width: 64%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .Blog1 .Blog .Blog__men {
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding: 3%;
 }
+
 .Blog1 .Blog .Blog__men .Blog__LIST {
   margin-top: 2%;
   margin-left: 5%;
 }
+
 .Blog1 .Blog .Blog__men .Blog__LIST li {
   list-style-type: disc;
 }
+
 .Blog1 .Blog .Blog__men .Blog__img {
   width: 50%;
   border: 1px solid #8a8888;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .Blog1 .Blog .Blog__men .Blog__img img {
   width: 60%;
   margin: 5%;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
   transition: 1s;
 }
+
 .Blog1 .Blog .Blog__men .Blog__img img:hover {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
+
 .Blog1 .Blog .Blog__men .Blog__context {
   width: 50%;
   margin-left: 7%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .Blog1 .Blog .Blog__men .Blog__context .Blog__price {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 .Blog1 .Blog .Blog__men .Blog__context .Blog__price .price {
   margin-left: 50%;
 }
-.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color, .Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color,
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color ul, .Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth ul {
+
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color ul,
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth ul {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
-.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color ul li, .Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth ul li {
+
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__Color ul li,
+.Blog1 .Blog .Blog__men .Blog__context .Blog__context__bth ul li {
   padding: 1%;
   width: 30%;
   margin: 1%;
 }
+
 .Blog1 .Blog .Blog__men .Blog__mick {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
   width: 100%;
 }
+
 .Blog1 .Blog .Blog__men .Blog__mick .Blog__muse {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   border: 1px solid #949393;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   cursor: pointer;
 }
+
 .Blog1 .Blog .Blog__men .Blog__mick .Blog__muse img {
   width: 90%;
   margin: 2%;
 }
+
 .Blog1 .Blog .showList {
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 .Blog1 .Blog .showList .showList__cart {
   border: 1px solid #949393;
   width: 100%;
   padding-left: 5%;
   padding-top: 2%;
 }
+
 .Blog1 .Blog .summa__total {
   padding: 5%;
   width: 100%;
   border: 1px solid #b6b4b4;
   margin-bottom: 100px;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .Blog1 .Blog .summa__total button {
   margin-top: 2%;
   width: 20%;
@@ -509,63 +469,55 @@
 .contactBlockMen {
   width: 64%;
   background-color: white;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .contactBlockMen .contactBlock {
   width: 100%;
 }
+
 .contactBlockMen .contactBlock .contactBl {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 .contactBlockMen .contactBlock .contactBl .contactBlockImage {
   width: 50%;
   padding: 3%;
   border: 1px solid #b6b4b4;
 }
+
 .contactBlockMen .contactBlock .contactBl .contactBlockImage img {
   width: 100%;
 }
+
 .contactBlockMen .contactBlock .contactBl .contactBlockContent {
   width: 50%;
   padding: 3%;
 }
+
 .contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockContent1 {
   margin-top: 3%;
   margin-bottom: 5%;
   padding-bottom: 4%;
 }
+
 .contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockContent1 li {
   padding-top: 3%;
 }
-.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockColor, .contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockButt {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockColor,
+.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockButt {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockColor p, .contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockButt p {
+
+.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockColor p,
+.contactBlockMen .contactBlock .contactBl .contactBlockContent .contactBlockButt p {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   border-radius: 5px;
   color: white;
   margin: 2%;
