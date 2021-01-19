@@ -177,9 +177,10 @@ minNavbarMenu.style.display = 'none'
 // })
 
 
-let minNavbarIMG = document.querySelector('.minNavbarIMG');
+let minNavbarIMG = document.querySelector('.minNavbarIMG').onclick = click1;
+let minNavbarIMG2 = document.querySelector('.minNavbarIMG').mouseover = click1;
 
-setTimeout(minNavbarIMG.addEventListener('click', function () {
+function click1() {
 
     if (minNavbarMenu.style.display == 'flex') {
         minNavbarMenu.style.display = 'none';
@@ -189,4 +190,4 @@ setTimeout(minNavbarIMG.addEventListener('click', function () {
 
     };
 
-}), 2000);
+}
