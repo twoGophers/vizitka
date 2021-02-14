@@ -21,13 +21,31 @@
   body .men .header .navigation {
     width: 100%;
   }
-  body .men .men__body, body .men .men__body2, body .men .saitBarAbout, body .men .men__body1, body .men .contactBlockMen, body .men .men__body3, body .men .Blog1 {
+  body .men .men__body,
+body .men .men__body2,
+body .men .saitBarAbout,
+body .men .men__body1,
+body .men .contactBlockMen,
+body .men .men__body3,
+body .men .Blog1 {
     width: 100%;
   }
-  body .men .men__body .men__minBody, body .men .men__body2 .men__minBody, body .men .saitBarAbout .men__minBody, body .men .men__body1 .men__minBody, body .men .contactBlockMen .men__minBody, body .men .men__body3 .men__minBody, body .men .Blog1 .men__minBody {
+  body .men .men__body .men__minBody,
+body .men .men__body2 .men__minBody,
+body .men .saitBarAbout .men__minBody,
+body .men .men__body1 .men__minBody,
+body .men .contactBlockMen .men__minBody,
+body .men .men__body3 .men__minBody,
+body .men .Blog1 .men__minBody {
     width: 100%;
   }
-  body .men .men__body .men__minBody .men__block, body .men .men__body2 .men__minBody .men__block, body .men .saitBarAbout .men__minBody .men__block, body .men .men__body1 .men__minBody .men__block, body .men .contactBlockMen .men__minBody .men__block, body .men .men__body3 .men__minBody .men__block, body .men .Blog1 .men__minBody .men__block {
+  body .men .men__body .men__minBody .men__block,
+body .men .men__body2 .men__minBody .men__block,
+body .men .saitBarAbout .men__minBody .men__block,
+body .men .men__body1 .men__minBody .men__block,
+body .men .contactBlockMen .men__minBody .men__block,
+body .men .men__body3 .men__minBody .men__block,
+body .men .Blog1 .men__minBody .men__block {
     width: 50%;
   }
   body .men .saitBar {
@@ -95,7 +113,7 @@
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f8ffe8", endColorstr="#b7df2d",GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8ffe8", endColorstr="#b7df2d", GradientType=0);
     /* IE6-9 */
   }
   .men .header .navigation .minNavbar .minNavbarMenu ul li:hover {
@@ -108,7 +126,7 @@
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #b4e391 0%, #61c419 50%, #b4e391 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#b4e391", endColorstr="#b4e391",GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b4e391", endColorstr="#b4e391", GradientType=0);
     /* IE6-9 */
     cursor: pointer;
   }
@@ -167,11 +185,37 @@
     width: 40%;
     margin: 2%;
   }
-  .men .men__body .men__minBody .men__block, .men .men__body .men__minBody .men__block2, .men .men__body .men__minBody .men__block33, .men .men__body .men__minBody2 .men__block, .men .men__body .men__minBody2 .men__block2, .men .men__body .men__minBody2 .men__block33, .men .men__body .men__minBody3 .men__block, .men .men__body .men__minBody3 .men__block2, .men .men__body .men__minBody3 .men__block33, .men .men__body2 .men__minBody .men__block, .men .men__body2 .men__minBody .men__block2, .men .men__body2 .men__minBody .men__block33, .men .men__body2 .men__minBody2 .men__block, .men .men__body2 .men__minBody2 .men__block2, .men .men__body2 .men__minBody2 .men__block33, .men .men__body2 .men__minBody3 .men__block, .men .men__body2 .men__minBody3 .men__block2, .men .men__body2 .men__minBody3 .men__block33, .men .men__body3 .men__minBody .men__block, .men .men__body3 .men__minBody .men__block2, .men .men__body3 .men__minBody .men__block33, .men .men__body3 .men__minBody2 .men__block, .men .men__body3 .men__minBody2 .men__block2, .men .men__body3 .men__minBody2 .men__block33, .men .men__body3 .men__minBody3 .men__block, .men .men__body3 .men__minBody3 .men__block2, .men .men__body3 .men__minBody3 .men__block33 {
-    transition: all 2s ease-in;
+  .men .men__body .men__minBody .men__block,
+.men .men__body .men__minBody .men__block2,
+.men .men__body .men__minBody .men__block33,
+.men .men__body .men__minBody2 .men__block,
+.men .men__body .men__minBody2 .men__block2,
+.men .men__body .men__minBody2 .men__block33,
+.men .men__body .men__minBody3 .men__block,
+.men .men__body .men__minBody3 .men__block2,
+.men .men__body .men__minBody3 .men__block33,
+.men .men__body2 .men__minBody .men__block,
+.men .men__body2 .men__minBody .men__block2,
+.men .men__body2 .men__minBody .men__block33,
+.men .men__body2 .men__minBody2 .men__block,
+.men .men__body2 .men__minBody2 .men__block2,
+.men .men__body2 .men__minBody2 .men__block33,
+.men .men__body2 .men__minBody3 .men__block,
+.men .men__body2 .men__minBody3 .men__block2,
+.men .men__body2 .men__minBody3 .men__block33,
+.men .men__body3 .men__minBody .men__block,
+.men .men__body3 .men__minBody .men__block2,
+.men .men__body3 .men__minBody .men__block33,
+.men .men__body3 .men__minBody2 .men__block,
+.men .men__body3 .men__minBody2 .men__block2,
+.men .men__body3 .men__minBody2 .men__block33,
+.men .men__body3 .men__minBody3 .men__block,
+.men .men__body3 .men__minBody3 .men__block2,
+.men .men__body3 .men__minBody3 .men__block33 {
+    
     animation: page111 1s linear;
     animation-fill-mode: both;
-    transition: 1s;
+    
   }
   @keyframes page111 {
     0% {
@@ -181,7 +225,15 @@
       min-width: 90%;
     }
   }
-  .men .men__body .men__minBody .men__block3, .men .men__body .men__minBody2 .men__block3, .men .men__body .men__minBody3 .men__block3, .men .men__body2 .men__minBody .men__block3, .men .men__body2 .men__minBody2 .men__block3, .men .men__body2 .men__minBody3 .men__block3, .men .men__body3 .men__minBody .men__block3, .men .men__body3 .men__minBody2 .men__block3, .men .men__body3 .men__minBody3 .men__block3 {
+  .men .men__body .men__minBody .men__block3,
+.men .men__body .men__minBody2 .men__block3,
+.men .men__body .men__minBody3 .men__block3,
+.men .men__body2 .men__minBody .men__block3,
+.men .men__body2 .men__minBody2 .men__block3,
+.men .men__body2 .men__minBody3 .men__block3,
+.men .men__body3 .men__minBody .men__block3,
+.men .men__body3 .men__minBody2 .men__block3,
+.men .men__body3 .men__minBody3 .men__block3 {
     width: 30%;
   }
   .men .Blog1 .Blog .Blog__men .Blog__mick {
@@ -209,11 +261,26 @@
   }
 }
 @media screen and (max-width: 530px) {
-  .men .men__body .men__minBody .men__block, .men .men__body .men__minBody .men__block2, .men .men__body .men__minBody2 .men__block, .men .men__body .men__minBody2 .men__block2, .men .men__body .men__minBody3 .men__block, .men .men__body .men__minBody3 .men__block2, .men .men__body2 .men__minBody .men__block, .men .men__body2 .men__minBody .men__block2, .men .men__body2 .men__minBody2 .men__block, .men .men__body2 .men__minBody2 .men__block2, .men .men__body2 .men__minBody3 .men__block, .men .men__body2 .men__minBody3 .men__block2, .men .men__body3 .men__minBody .men__block, .men .men__body3 .men__minBody .men__block2, .men .men__body3 .men__minBody2 .men__block, .men .men__body3 .men__minBody2 .men__block2, .men .men__body3 .men__minBody3 .men__block, .men .men__body3 .men__minBody3 .men__block2 {
-    transition: all 2s ease-in;
-    animation: page1 1s linear;
+  .men .men__body .men__minBody .men__block,
+.men .men__body .men__minBody .men__block2,
+.men .men__body .men__minBody2 .men__block,
+.men .men__body .men__minBody2 .men__block2,
+.men .men__body .men__minBody3 .men__block,
+.men .men__body .men__minBody3 .men__block2,
+.men .men__body2 .men__minBody .men__block,
+.men .men__body2 .men__minBody .men__block2,
+.men .men__body2 .men__minBody2 .men__block,
+.men .men__body2 .men__minBody2 .men__block2,
+.men .men__body2 .men__minBody3 .men__block,
+.men .men__body2 .men__minBody3 .men__block2,
+.men .men__body3 .men__minBody .men__block,
+.men .men__body3 .men__minBody .men__block2,
+.men .men__body3 .men__minBody2 .men__block,
+.men .men__body3 .men__minBody2 .men__block2,
+.men .men__body3 .men__minBody3 .men__block,
+.men .men__body3 .men__minBody3 .men__block2 {
+    
     animation-fill-mode: both;
-    transition: 1s;
   }
   @keyframes page1 {
     0% {
@@ -227,10 +294,8 @@
     width: 100%;
   }
   .men .saitBar .saitBarContent {
-    transition: all 2s ease-in;
-    animation: page11 1s linear;
+    
     animation-fill-mode: both;
-    transition: 1s;
     width: 60%;
   }
   @keyframes page11 {
@@ -276,7 +341,7 @@
     justify-content: center;
   }
   .men .contactBlockMen .contactBlock .contactBl .contactBlockImage img {
-    width: 70%;
+    width: 100%;
   }
   .men .contactBlockMen .contactBlock .contactBl .contactBlockContent {
     width: 70%;
@@ -285,36 +350,55 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .men .men__body, .men .men__body2, .men .men__body1, .men .men__body3 {
+  .men .men__body,
+.men .men__body2,
+.men .men__body1,
+.men .men__body3 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
   }
-  .men .men__body .block3, .men .men__body2 .block3, .men .men__body1 .block3, .men .men__body3 .block3 {
+  .men .men__body .block3,
+.men .men__body2 .block3,
+.men .men__body1 .block3,
+.men .men__body3 .block3 {
     display: none;
   }
-  .men .men__body .men__minBody, .men .men__body2 .men__minBody, .men .men__body1 .men__minBody, .men .men__body3 .men__minBody {
+  .men .men__body .men__minBody,
+.men .men__body2 .men__minBody,
+.men .men__body1 .men__minBody,
+.men .men__body3 .men__minBody {
     padding: 0;
     margin: 0;
   }
-  .men .men__body .men__minBody .forma, .men .men__body2 .men__minBody .forma, .men .men__body1 .men__minBody .forma, .men .men__body3 .men__minBody .forma {
+  .men .men__body .men__minBody .forma,
+.men .men__body2 .men__minBody .forma,
+.men .men__body1 .men__minBody .forma,
+.men .men__body3 .men__minBody .forma {
     padding: 0;
     margin: 0;
   }
-  .men .men__body .men__minBody .forma .form, .men .men__body2 .men__minBody .forma .form, .men .men__body1 .men__minBody .forma .form, .men .men__body3 .men__minBody .forma .form {
+  .men .men__body .men__minBody .forma .form,
+.men .men__body2 .men__minBody .forma .form,
+.men .men__body1 .men__minBody .forma .form,
+.men .men__body3 .men__minBody .forma .form {
     margin: 0;
     padding: 0;
   }
-  .men .men__body .men__minBody .forma .form .formInput, .men .men__body2 .men__minBody .forma .form .formInput, .men .men__body1 .men__minBody .forma .form .formInput, .men .men__body3 .men__minBody .forma .form .formInput {
+  .men .men__body .men__minBody .forma .form .formInput,
+.men .men__body2 .men__minBody .forma .form .formInput,
+.men .men__body1 .men__minBody .forma .form .formInput,
+.men .men__body3 .men__minBody .forma .form .formInput {
     margin: 0;
     padding: 0;
   }
-  .men .men__body .men__minBody .men__block, .men .men__body2 .men__minBody .men__block, .men .men__body1 .men__minBody .men__block, .men .men__body3 .men__minBody .men__block {
-    transition: all 2s ease-in;
-    animation: page1 1s linear;
+  .men .men__body .men__minBody .men__block,
+.men .men__body2 .men__minBody .men__block,
+.men .men__body1 .men__minBody .men__block,
+.men .men__body3 .men__minBody .men__block {
+    
     animation-fill-mode: both;
-    transition: 1s;
   }
   @keyframes page1 {
     0% {
@@ -328,10 +412,8 @@
     width: 100%;
   }
   .men .saitBar .saitBarContent {
-    transition: all 2s ease-in;
-    animation: page111 1s linear;
+    
     animation-fill-mode: both;
-    transition: 1s;
     width: 60%;
   }
   @keyframes page111 {
